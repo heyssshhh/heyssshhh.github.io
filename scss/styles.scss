@@ -84,6 +84,14 @@ $text: #74808a;
     ----------------------------
 */
 
+#round {
+  border-radius: 10px;
+  border: 10px;
+  border-color: black;
+  background-color: black;
+}
+
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -92,6 +100,8 @@ body {
         overflow: hidden;
         z-index: -1;
     }
+
+
 }
 
 // No JS styles
@@ -449,13 +459,18 @@ footer {
     padding: 75px 15px;
     border-bottom: 1px solid $border;
 
+
     h2 {
         color: $heading;
     }
 
     p {
+
+
         color: $text;
-        margin: 0;
+        margin: 100px;
+        padding-top: 300px;
+
     }
 }
 
@@ -958,18 +973,17 @@ footer {
         }
     }
 
-    img {
-      max-width: 100%;
-    }
-
     .project-image {
         display: none;
     }
 
 
 
+
+
     .project-info {
-        position: relative;
+        display: flex;
+        align-self: center;
         margin: 0;
         padding: 30px 15px;
         top: auto;
