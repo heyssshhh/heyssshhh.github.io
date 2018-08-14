@@ -958,9 +958,15 @@ footer {
         }
     }
 
+    img {
+      max-width: 100%;
+    }
+
     .project-image {
         display: none;
     }
+
+
 
     .project-info {
         position: relative;
